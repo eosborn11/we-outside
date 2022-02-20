@@ -1,0 +1,34 @@
+#top{
+   display: flex;
+   background-color: #0000ff;
+   justify-content: space-between;
+   height: 50px;
+   width: auto;
+
+
+}
+
+#Create{
+background-color: crimson;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#title{
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#content{
+    background-color: darkmagenta;
+    height: 700px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

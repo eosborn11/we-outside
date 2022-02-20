@@ -109,5 +109,9 @@
 
       }
       #avatar{
-        border-radius: 25%;
+        border-radius: 50%;
+      }
+      #content{
+        display: flex;
+        flex-wrap: wrap;
       }
