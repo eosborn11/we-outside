@@ -1,29 +1,113 @@
-header {
+#leftnav {
     box-shadow: 10px 10px 10px rgb(100 100 100);
-    z-index: 9999;
-    position: fixed;
-    margin-top: 0;
-    padding-top: 0;
-    top: 0;
-    place-items: center;
-    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    place-items: left;
+    width: 80px;
     display: flex;
-    background-color: #fff; }
-    header h1{
+    flex-direction: column;
+    background-color: rgba(247, 247, 247, 0.836); 
+  }
+
+
+    #leftnav h1{
         margin-right: 140px;
         font-family: 'dongle';
-        font-size: 50px; }
+        font-size: 20pt; }
+
     
-      header button{
+      #leftnav button{
         height: 150px;
         margin: 0;
         width: 90px;
-        background-color: #fff;
+        background-color: rgb(24, 199, 199);
         border: 0;
         font-family: 'montserrat';
         box-shadow: inset 0 0 0 0 rgb(240 240 256);
         transition: 0.4s ease-out;
       }
-      header button:hover {
+
+      #leftnav button:hover {
         box-shadow: inset 0 90px 90px 0 rgb(240 240 256);
+      }
+
+      .logoImg {
+        width: 30px;
+        margin-left: 10px;
+        margin-right: 0;
+      }
+
+      .navBtn{
+        padding: 10px;
+  
+      }
+
+      #Dashboard{
+      width: 90%;
+      background-color: blue;
+      height: 50px;
+      align-content: center;
+      margin: 10px;
+      
+      
+    }
+
+
+      #search{
+      
+      }
+
+
+      #main{
+        display: flex;
+        background-color: blueviolet;
+        height: 100vh;
+        width: auto;
+      
+      }
+      ol li {
+      list-style-type: none;
+      padding: 20px;
+      margin: 35px;
+      }
+      ol{
+        display: flex;
+      }
+      #box{
+        height: 0px;
+        width: 70px;
+        padding: 70px;
+        background-color: burlywood;
+      }
+      #cards{
+        background-color: rgb(127, 177, 35);
+        height: 400px;
+        width: 300px;
+        border: rgb(205, 31, 221);
+        border-style: outset;
+        border-width: 7px;
+        margin: 25px;
+        
+    
+      }
+      img{
+        width: 275px;
+        height: 115px;
+        padding: 10px;
+      }
+      #button{
+        height: 25px;
+        width: 100px;
+        background-color: darkmagenta;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        border-width: 5px;
+        border-style: double;
+        border-color: rgb(240, 16, 35);
+
+      }
+      #avatar{
+        border-radius: 25%;
       }
